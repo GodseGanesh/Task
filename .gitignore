@@ -1,0 +1,92 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# pip cache
+pip-log.txt
+pip-wheel-metadata/
+.wheels/
+
+# ----------------------------------------
+# Django
+# ----------------------------------------
+*.log
+logs/
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+static/
+
+# Compiled translations
+*.mo
+
+# Secret and environment variables
+.env
+.env.*
+.env.local
+*.secret
+config.json
+
+# Cache
+.cache/
+*.pid
+
+# IDE / Editor
+# ----------------------------------------
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+*.iml
+
+# ----------------------------------------
+# OS Files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Docker
+# ----------------------------------------
+docker-compose.override.yml
+docker-data/
+postgres_data/
+*.tar
+
+# ----------------------------------------
+# Migrations (Optional)
+# --- KEEP if deploying production migrations ---
+# Uncomment if generating from scratch:
+# */migrations/*.py
+# */migrations/*.pyc
+# !*/migrations/__init__.py
+
+# ----------------------------------------
+# Test & Coverage
+# ----------------------------------------
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+test_results/
+.trash/
+
+# ----------------------------------------
+# Build / Packaging
+# ----------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/

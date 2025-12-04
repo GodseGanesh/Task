@@ -1,0 +1,16 @@
+Django
+djangorestframework
+
+# PostgreSQL driver
+psycopg2-binary
+
+# CORS (optional but recommended)
+django-cors-headers
+# Environment variable support
+python-dotenv
+
+# API docs support 
+drf-spectacular
+
+gunicorn
+
