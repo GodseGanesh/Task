@@ -14,3 +14,4 @@ drf-spectacular
 
 gunicorn
 
+django-redis
